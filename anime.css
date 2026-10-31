@@ -1,0 +1,195 @@
+body {
+    background-color: #242525;
+}
+
+.navbar {
+    width: 100vw;
+    height: 50px;
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1{
+    color: brown;
+    font-weight: bolder
+}
+
+.links a {
+    color: black;
+    margin: 0px 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    border-bottom: 2px solid  brown;
+}
+
+.search {
+
+    input {
+        border: none;
+        border-radius: 10px;
+        padding: 7px;
+    }
+
+    button {
+        color: white;
+        background-color: brown;
+        padding: 5px;
+        border: none;
+        border-radius: 9px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* heade */
+/* h1{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+   font-size: 40px;
+   text-decoration: double underline; 
+   text-transform: uppercase;
+   color: rgb(255, 255, 255);
+}
+
+.logo { 
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    height: 20px; 
+    padding: 10px;
+    width: 95Vw;
+    background-color: rgb(150, 52, 45);
+}
+
+
+a { 
+    text-decoration: none;
+    font-size: 1em;
+   color: black;
+} 
+
+
+input{
+    
+    padding: 10px;
+}
+
+.button {
+         margin-right: 10px; 
+} */
+
+h2 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.hadding {
+    text-align: center;
+
+}
+
+/* main content  */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+
+
+    /* display: grid;
+    grid-template-columns: 260px 5px 260px 40px 200px 70px 200px 340px 300px ;
+    grid-template-rows: 500px 500px 500px;
+    justify-items: center;
+     */
+}
+
+
+.all-anime {
+    width: 200px;
+    height: 360px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(73, 72, 72);
+    padding: 15px;
+    box-shadow: 0px 10px 20px black;
+
+}
+
+.all-anime :hover {
+    transform: scale(1.02);
+
+}
+
+h2 {
+    color: white;
+}
+
+
+p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* a{ text-decoration: none; 
+   color: rgb(0, 0, 0); 
+   background-color: rgb(255, 255, 255);}
+
+
+
+
+
+.logo{
+    background-color: #1D4ED8;
+    height: 55px;
+    border: #F97316;
+    position: sticky;
+    top: 0;
+}     */
